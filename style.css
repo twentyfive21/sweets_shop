@@ -1,0 +1,18 @@
+:root {
+    --light-blue: #2FAFC8;
+    --white: #FFFFFF;
+    --black: #1D1C1C;
+    --tan: #F6F2EF;
+    --pink: #FF5678;
+    --gray: #787878;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+}
