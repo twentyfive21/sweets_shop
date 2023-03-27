@@ -19,4 +19,113 @@
 a{
     text-decoration: none;
 }
-/* ~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~     HEADER CSS      ~~~~~~~~ */
+header {
+    display: flex;
+    font-weight: 900;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+header h1 {
+    color: var(--pink);
+    font-size: 24px;
+}
+header nav a {
+    color: var(--black);
+    margin-right: 40px;
+}
+header button{
+    padding: 5px 20px;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+    background-color: var(--pink);
+    border: none;
+    color: var(--white);
+}
+/* ~~~~~~~~~     MAN HOLDING CUP SECTION    ~~~~~~~~~~~~ */
+.top-container {
+    display: flex;
+    justify-content: center;
+    padding: 120px 120px;
+}
+.top-container h2 {
+    font-size: 88px;
+    font-weight: 900;
+}
+.top-container h3 {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.top-container input {
+    background-color: var(--tan);
+    border: none;
+    border-radius: 16px;
+    height: 64px;
+    width: 376px;
+    padding-left: 20px;
+}
+.top-container button {
+    border: none;
+    border-radius: 40px;
+    height: 64px;
+    width: 64px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: var(--white);
+    background-color: var(--pink);
+    font-size: 24px;
+}
+.top-container img{
+    margin-top: -100px;
+}
+
+/* ~~~~~      ABOUT SECTION      ~~~~~~~~ */
+.about-section {
+    height: 300px;
+    padding: 25px 120px;
+}
+.about-section h2 {
+    font-size: 48px;
+}
+.about-section p {
+    font-size: 20px;
+    margin: 25px 0;
+}
+.about-section a {
+    text-decoration: underline;
+    color: var(--pink);
+}
+
+
+/* ~~~~~~~~~   SPECIAL OFFERS SECTION  ~~~~~~~~~~~~~~~ */
+.special h2 {
+    font-size: 48px;
+}
+.special {
+    padding: 50px 120px;
+}
+.special div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.special button {
+    width: 157px;
+    height: 48px;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+    background-color: var(--pink);
+    border: none;
+    color: var(--white);
+}
+
+
+/* ~~~~~~~~~~~~~~~~~  FOOTER  ~~~~~~~~~~~~~~~~~ */
+footer {
+    height: 200px;
+    color: var(--white);
+    background-color: var(--black);
+    display: flex;
+    display: ;
+}
