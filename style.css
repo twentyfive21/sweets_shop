@@ -16,15 +16,23 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
+
 a{
     text-decoration: none;
 }
+
+/* ~~~~~~~~~~~     LINE CSS      ~~~~~~~~ */
+.line {
+    border-bottom: #1D1C1C solid 2px;
+    padding: 0 100px;
+    margin: 30px 120px 30px 120px;
+}
+
 /* ~~~~~~~~~~~     HEADER CSS      ~~~~~~~~ */
 header {
     display: flex;
-    font-weight: 900;
     justify-content: space-between;
-    padding: 50px 100px;
+    padding: 50px 120px;
 }
 header h1 {
     color: var(--pink);
@@ -35,6 +43,7 @@ header nav a {
     margin-right: 40px;
 }
 header button{
+    font-size: 16px;
     padding: 5px 20px;
     letter-spacing: 1.5px;
     border-radius: 20px;
@@ -84,6 +93,8 @@ header button{
 .about-section {
     height: 300px;
     padding: 25px 120px;
+    display: flex;
+    flex-direction: column;
 }
 .about-section h2 {
     font-size: 48px;
@@ -101,14 +112,17 @@ header button{
 /* ~~~~~~~~~   SPECIAL OFFERS SECTION  ~~~~~~~~~~~~~~~ */
 .special h2 {
     font-size: 48px;
+    padding-bottom: 25px;
 }
 .special {
     padding: 50px 120px;
+
 }
 .special div {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
 }
 .special button {
     width: 157px;
@@ -119,13 +133,114 @@ header button{
     border: none;
     color: var(--white);
 }
+/* ~~~~~~~~~~~~~~~~~  CARD  ~~~~~~~~~~~~~~~~~ */
+figure {
+    background-color: var(--tan);
+    width: 373px;
+    height: 411px;
+    border-radius: 16px;
+    padding: 40px 0;
+}
+figcaption {
+    padding: 25px 0;
+    font-weight: 600;
+}
+figure button {
+    width: 157px;
+    height: 48px;
+    letter-spacing: 3px;
+    border-radius: 25px;
+    background-color: var(--pink);
+    border: none;
+    color: var(--white);
+    font-weight: 600;
+}
+/* ~~~~~~~~~~~~~~~~~  SHOPPING CARD SELECTION~~~~~~~~~~~~~~~~~ */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin: 20px 20px;
+    width: 373px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    display: flex;
+   
+}
+.card div {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    font-weight: 900;
+}
 
+.origin {
+    margin: -20px 245px 30px 0;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~  SELECTION PRICE ~~~~~~~~~~~~~~~~~ */
+.selection {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px 30px 120px;
+}
+.selection h1 {
+    font-size: 48px;
+}
+.selection div {
+    display: flex;
+    align-items: center;
+}
+.selection select {
+    width: 160px;
+    height: 48px;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    background-color: var(--tan);
+    padding: 0 10px;
+    border: none;
+    margin-left: 20px;
+    
+}
+.selection label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.available {
+    position: absolute;
+    height: 50px;
+    width: 123px;
+    color: var(--white);
+    border-radius: 25px 0 0 25px;
+    font-size: 20px;
+    background-color: var(--green);
+    padding: 12px 100px 10px 15px;
+    font-weight: 600;
+    margin: -20px -250px 0 0;
+}
 
 /* ~~~~~~~~~~~~~~~~~  FOOTER  ~~~~~~~~~~~~~~~~~ */
 footer {
+    font-size: 20px;
     height: 200px;
     color: var(--white);
     background-color: var(--black);
     display: flex;
-    display: ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin-top: 50px;
+}
+footer img{
+    margin: 10px 10px;
 }
