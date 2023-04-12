@@ -10,7 +10,7 @@
 ### You will need a basic knowledge of HTML, CSS, and Flexbox to make this page. This website can also be done using CSS Grid if you want to practice that skill aswell.
 
 ---
-### Here is an explanition of the languages below if yuu are a beginner: 
+### Here is an explanition of the languages below if you are a beginner: 
 
 ### HTML stands for hypertext markup language and is used as the foundation to define the structure of webpages. To explain it in simpler terms it is the beams that hold up your house. It is used to create your paragraphs, headings, footers, and so much more.
 
