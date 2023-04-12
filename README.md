@@ -12,8 +12,8 @@
 ---
 ### Here is an explanition of the languages below if yuu are a beginner: 
 
-HTML stands for hypertext markup language and is used as the foundation to define the structure of webpages. To explain it in simpler terms it is the beams that hold up your house. It is used to create your paragraphs, headings, footers, and so much more.
+### HTML stands for hypertext markup language and is used as the foundation to define the structure of webpages. To explain it in simpler terms it is the beams that hold up your house. It is used to create your paragraphs, headings, footers, and so much more.
 
-CSS stands for cascading style sheets and it is used to style your webpages. For example, it is the color of your walls and the decorations you have around your house. This is the language that brings your site to life and makes it look beautiful. CSS alters the size of your font, background color, and so much more. Without this your page ends up looking like you created it in microsoft word.
+### CSS stands for cascading style sheets and it is used to style your webpages. For example, it is the color of your walls and the decorations you have around your house. This is the language that brings your site to life and makes it look beautiful. CSS alters the size of your font, background color, and so much more. Without this your page ends up looking like you created it in microsoft word.
 ---
 ### From here on out I would recommend for you to make all your pages first and set up its HTML structure. Then to gather all your images and set up your git up repo before starting to CSS you page. Keep coding!
